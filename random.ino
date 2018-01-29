@@ -56,7 +56,7 @@ void loop() {
    //useing the function
    temp = xorshift1024star(s);
   
-   //prints a random value whenever the button is pushed and also includes range from 0-99
+   //prints a random value whenever the button is pushed and also includes range set of the random numberse from 0-99
    if(buttonState==HIGH){
    Serial.print(temp%100);
   //Serial.print(sensorValue2);
