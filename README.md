@@ -10,4 +10,5 @@ Vastly superior performance compared to the default random() function.
 
 
 *the use of 32bit integers is in place because it allows them to overflow in short terms and this adds to the randomness of the function but it can also work well enough with bigger inegeres
+
 *the sensors used in our example circuit where: photoresistor with randomized led array (to improve given values) , sound sensor and a free cable connected to an analog input that senses random noise (common practice for arduino random() ).
